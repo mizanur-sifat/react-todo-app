@@ -1,8 +1,8 @@
-export default function Task() {
+export default function Task({task}) {
     return (
         <>
             <input type="checkbox" />
-            Learn HTML
+            {task.text}
             <button>Edit</button>
             <button>Delete</button>
         </>

@@ -10,7 +10,7 @@ export default function TaskList() {
         <ul>
             {tasks.map(task => (
                 <li key={task.id}>
-                    <Task />
+                    <Task task={task} />
                 </li>
             ))}
         </ul>
